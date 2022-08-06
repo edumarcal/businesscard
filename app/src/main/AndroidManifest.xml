@@ -3,6 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="me.dio.businesscard">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
     <application
         android:name=".App"
         android:allowBackup="true"
@@ -14,11 +19,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BusinessCard"
         tools:targetApi="31">
-        <activity
-            android:name=".ui.AddBusinessCardActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ui.MainActivity"
+        <activity android:name=".ui.AddBusinessCardActivity" />
+        <activity android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -103,7 +103,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/til_color"
+        android:id="@+id/til_background"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -130,6 +130,6 @@
         android:text="@string/label_confirm"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/til_color" />
+        app:layout_constraintTop_toBottomOf="@+id/til_background" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
