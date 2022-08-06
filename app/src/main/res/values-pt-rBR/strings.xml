@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Business-Card</string>
+    <string name="label_business_cards">Cartões de visita</string>
+    <string name="label_description_new_card">Novo cartão</string>
+    <string name="label_name">Nome</string>
+    <string name="label_phone">Telefone</string>
+    <string name="label_email">E-mail</string>
+    <string name="label_company">Empresa</string>
+    <string name="label_color">Cor</string>
+    <string name="label_confirm">Confirmar</string>
+    <string name="label_show_success">Registro inserido com sucesso.</string>
+    <string name="label_share_to">Compartilhar</string>
+</resources>

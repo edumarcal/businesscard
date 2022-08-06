@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/workspaces/BusinessCard/app/src/main/res/layout/activity_add_business_card.xml" value="0.536" />
         <entry key="..\:/workspaces/BusinessCard/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/workspaces/BusinessCard/app/src/main/res/layout/item_business_card.xml" value="0.1" />
       </map>
     </option>
   </component>
